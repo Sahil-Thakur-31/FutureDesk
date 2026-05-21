@@ -1,0 +1,14 @@
+node_modules
+dist
+build
+.expo
+.turbo
+.vite
+coverage
+*.log
+.DS_Store
+.env
+.env.local
+backend/uploads
+desktop/dist-electron
+desktop/out

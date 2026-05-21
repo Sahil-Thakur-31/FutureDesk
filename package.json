@@ -1,0 +1,20 @@
+{
+  "name": "futuredesk",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.6.1",
+  "pnpm": {
+    "overrides": {
+      "react": "19.0.0",
+      "react-dom": "19.0.0",
+      "@types/react": "19.0.10",
+      "@types/react-dom": "19.0.4"
+    }
+  },
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter @futuredesk/backend --filter @futuredesk/desktop --filter @futuredesk/mobile dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

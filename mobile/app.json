@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "FutureDesk",
+    "slug": "futuredesk",
+    "scheme": "futuredesk",
+    "plugins": ["expo-notifications"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f1720"
+      }
+    }
+  }
+}
